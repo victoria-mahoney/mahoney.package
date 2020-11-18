@@ -1,0 +1,40 @@
+---
+title: "September 23rd, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Goal for the rest of class...
+
+Oh gosh, my project has changed pretty drastically just now... But I am expecting to do regression plots or anovas. For now, I will focus on the homework.
+
+Immediately I am struggling with Question one.. it seems like the file is already downloaded to projects/homeworks as an .Rmd file... okay, went to homework and used that link and changed two to three. that worked.
+*Worked*
+
+*Did not work*
+
+## October 5, 2020 
+Trying revision for the first time
+First push worked! yay!
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
