@@ -45,6 +45,9 @@ linreg(hyalella$Treatment, hyalella$Days_Until_Death, hyalella)
 
 ```
 
+###The second function will help you plot your linear model. 
+
+
 These data look quite the opposite of linear, but let's test that by plotting the regression. 
 ``` {r}
 library(ggplot2)
@@ -60,6 +63,8 @@ assert_that(not_empty(ggp))
 ```
 
 This plot highlights the lack of linearity. 
+
+###The third function will run an anova on these data. 
 
 Now let's test for significance between the treatment and Days until Death using an anova. Again the first line is 
 
