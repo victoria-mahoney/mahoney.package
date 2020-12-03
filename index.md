@@ -1,25 +1,6 @@
 #mahoney.package
 ##author: Victoria Mahoney
-### This package will enable you to simply run a linear regression, plot the output of that, and also run an anova on your data. 
-
-Package: mahoney.package
-Title: One way ANOVA, linear regression, and linear regression plotting
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Victoria",
-           family = "Mahoney",
-           role = c("aut", "cre"),
-           email = "victoria.mahoney@selu.edu",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package will aid you in a one way ANOVA, linear regression, and then plot your linear regression. 
-Depends: (R> 4.0.0)
-Imports: iNEXT, tidyverse, ggplot2, assertthat, dplyr
-Suggests: knitr, rmarkdown, testthat
-License: MIT
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+### This package will enable you to simply run a linear regression, plot the output of that, and also run an anova on a data that measured the survival of _Hyalella sp._ over salinity treatments ranging from 0 ppt - 9 ppt. 
 
 
 ---
