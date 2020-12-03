@@ -1,9 +1,10 @@
 #' The purpose of this function will be to run an anova.
-#' export
-#' #'@param predictor is the independent variable
+#' 
+#'@param predictor is the independent variable
 #'@param response is the dependent variable
 #'@param dataframe is the dataset 
 #'@return a summary of an analysis of variance
+#'@export
 
 anva <- function(predictor, response, dataframe){
   anva_output <- aov(predictor ~ response, data = dataframe)

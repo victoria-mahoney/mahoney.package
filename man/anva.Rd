@@ -2,13 +2,13 @@
 % Please edit documentation in R/ANOVA Function.R
 \name{anva}
 \alias{anva}
-\title{The purpose of this function will be to run an anova.
-export
-#'@param predictor is the independent variable}
+\title{The purpose of this function will be to run an anova.}
 \usage{
 anva(predictor, response, dataframe)
 }
 \arguments{
+\item{predictor}{is the independent variable}
+
 \item{response}{is the dependent variable}
 
 \item{dataframe}{is the dataset}
@@ -18,6 +18,4 @@ a summary of an analysis of variance
 }
 \description{
 The purpose of this function will be to run an anova.
-export
-#'@param predictor is the independent variable
 }

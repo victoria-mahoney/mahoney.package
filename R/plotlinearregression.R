@@ -1,9 +1,10 @@
 #' The purpose of this function is to plot a graph based on a previously run linear regression using the package. 
-#' export
+#' 
 #' @param x.var is the independent variable
 #' @param y.var is the dependent variable
 #' @param dataframe is the dataset you are analyzing
 #' @return a linear model of Hyalella sp. survival
+#' @export
 
 linplot <- function(x.var, y.var, dataframe){
  x.var <- enquo(x.var)

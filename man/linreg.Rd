@@ -2,13 +2,13 @@
 % Please edit documentation in R/linear_regression.R
 \name{linreg}
 \alias{linreg}
-\title{The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments.
-export
-#'@param predictor is the independent variable}
+\title{The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments.}
 \usage{
 linreg(predictor, response, dataframe)
 }
 \arguments{
+\item{predictor}{is the independent variable}
+
 \item{response}{is the dependent variable}
 
 \item{dataframe}{is the dataset}
@@ -18,6 +18,4 @@ summary of the linear model
 }
 \description{
 The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments.
-export
-#'@param predictor is the independent variable
 }
