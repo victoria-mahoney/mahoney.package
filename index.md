@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+#mahoney.package
+##author: Victoria Mahoney
+### This package will enable you to simply run a linear regression, plot the output of that, and also run an anova on your data. 
 
-You can use the [editor on GitHub](https://github.com/victoria-mahoney/mahoney.package/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Package: mahoney.package
+Title: One way ANOVA, linear regression, and linear regression plotting
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Victoria",
+           family = "Mahoney",
+           role = c("aut", "cre"),
+           email = "victoria.mahoney@selu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package will aid you in a one way ANOVA, linear regression, and then plot your linear regression. 
+Depends: (R> 4.0.0)
+Imports: iNEXT, tidyverse, ggplot2, assertthat, dplyr
+Suggests: knitr, rmarkdown, testthat
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+---
+title: "Tutorial"
+output: html_document
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Below is a chunk that will install the package for you. Run this to install the package. 
 
-### Jekyll Themes
+```{r}
+devtools::install_github("victoria-mahoney/mahoney.package") 
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/victoria-mahoney/mahoney.package/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Next you will load the package in. This will ensure you can work with it. 
 
-### Support or Contact
+``` {r}
+library("mahoney.package")
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Now let's read in the data that we will be testing our function with. This is a dataset that records the survival of _Hyalella sp._ over a variety of salinity treatments. 
+
+``` {r}
+
+library(readr)
+hyalella <- read_csv("../inst/extdata/Hyalella_data.csv")
+summary(hyalella)
+
+```
