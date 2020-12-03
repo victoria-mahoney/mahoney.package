@@ -1,5 +1,5 @@
 #' The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments. 
-#' 
+#' fexport
 #' #'@param predictor is the independent variable
 #'@param response is the dependent variable
 #'@param dataframe is the dataset

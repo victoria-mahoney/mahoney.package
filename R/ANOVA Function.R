@@ -1,5 +1,5 @@
 #' The purpose of this function will be to run an anova.
-#' 
+#' fexport
 #' #'@param predictor is the independent variable
 #'@param response is the dependent variable
 #'@param dataframe is the dataset 
