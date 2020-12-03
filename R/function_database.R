@@ -1,28 +1,3 @@
-#'@param predictor is the independent variable
-#'@param response is the dependent variable
-#'@param dataframe is the dataset 
-#'@return a summary of an analysis of variance
-
-anva <- function(predictor, response, dataframe){
-  anva_output <- aov(predictor ~ response, data = dataframe)
-  anva_results <- summary(anva_output)
-  return(anva_results)
-}
-
-
-#'@param predictor is the independent variable
-#'@param response is the dependent variable
-#'@param dataframe is the dataset
-#'@return summary of the linear model 
-
-linreg <- function(predictor, response, dataframe){
-      lm_output <- lm(predictor ~ response, data = dataframe)
-     regression_output <- summary(lm_output)
-    return(regression_output)
-    }
-
-
-
 
 #' calculate volume of a shrub
 #@param: length of shrub (numeric, default 1)

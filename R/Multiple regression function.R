@@ -1,1 +1,0 @@
-#' The purpose of this script will be to perform a multiple regression on the leukocyte ratios from each site and the average salinity of the breeding pool. 
