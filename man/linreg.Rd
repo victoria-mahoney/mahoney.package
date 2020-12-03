@@ -3,7 +3,7 @@
 \name{linreg}
 \alias{linreg}
 \title{The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments.
-fexport
+export
 #'@param predictor is the independent variable}
 \usage{
 linreg(predictor, response, dataframe)
@@ -18,6 +18,6 @@ summary of the linear model
 }
 \description{
 The purpose of this script will be to perform a linear regression on the survival of Hyalella sp. over different salinity treatments.
-fexport
+export
 #'@param predictor is the independent variable
 }

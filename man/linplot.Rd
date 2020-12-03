@@ -3,7 +3,7 @@
 \name{linplot}
 \alias{linplot}
 \title{The purpose of this function is to plot a graph based on a previously run linear regression using the package.
-fexport}
+export}
 \usage{
 linplot(x.var, y.var, dataframe)
 }
@@ -19,5 +19,5 @@ a linear model of Hyalella sp. survival
 }
 \description{
 The purpose of this function is to plot a graph based on a previously run linear regression using the package.
-fexport
+export
 }

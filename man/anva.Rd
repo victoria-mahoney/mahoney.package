@@ -3,7 +3,7 @@
 \name{anva}
 \alias{anva}
 \title{The purpose of this function will be to run an anova.
-fexport
+export
 #'@param predictor is the independent variable}
 \usage{
 anva(predictor, response, dataframe)
@@ -18,6 +18,6 @@ a summary of an analysis of variance
 }
 \description{
 The purpose of this function will be to run an anova.
-fexport
+export
 #'@param predictor is the independent variable
 }
