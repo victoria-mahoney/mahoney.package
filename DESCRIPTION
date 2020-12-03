@@ -1,6 +1,6 @@
 Package: mahoney.package
 Title: One way ANOVA, linear regression, and linear regression plotting
-Version: 0.0.0.9000
+Version: 4.0.3.000
 Authors@R: 
     person(given = "Victoria",
            family = "Mahoney",
@@ -8,7 +8,6 @@ Authors@R:
            email = "victoria.mahoney@selu.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package will aid you in a one way ANOVA, linear regression, and then plot your linear regression. 
-Depends: (R> 4.0.0)
 Imports: iNEXT, tidyverse, ggplot2, assertthat, dplyr
 Suggests: knitr, rmarkdown, testthat
 License: MIT
