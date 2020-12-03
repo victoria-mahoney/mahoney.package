@@ -100,5 +100,5 @@ anva <- function(predictor, response, dataframe){
   return(anva_results)
 }
 anva <- function(predictor, response, dataframe)
-```
 anva(hyalella$Treatment, hyalella$Days_Until_Death, hyalella)
+```
