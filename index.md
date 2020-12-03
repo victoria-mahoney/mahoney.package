@@ -58,6 +58,7 @@ Linear regressions are a useful statistical tool. Let's run this on our test dat
 
 
 ``` {r}
+library(assertthat)
 linreg <- function(predictor, response, dataframe){
   lm_output <- lm(predictor ~ response, data = dataframe)
   regression_output <- summary(lm_output)
@@ -100,3 +101,4 @@ anva <- function(predictor, response, dataframe){
 }
 anva <- function(predictor, response, dataframe)
 ```
+anva(hyalella$Treatment, hyalella$Days_Until_Death, hyalella)
